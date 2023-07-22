@@ -13,9 +13,13 @@
 # get name, remove whitepsace and capitalize
 name = input("What's your name?").strip().title()
 
+# Split name
+first, name = name.split(" ")
+
 # Greet user
 #print("Hello,", name, sep="???")
-print(f"Hello, {name}")
+print(f"Hello, {first}")
+
 
 # # overide default value \n
 # print("Hello,", end="")
