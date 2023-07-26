@@ -1,6 +1,13 @@
-x = input("What's x? ")
-y = input("What's y? ")
+# x = float(input("What's x? "))
+# y = float(input("What's y? "))
 
-z = int(x) + int(y)
+# z = round(x + y)
+
+# print(f"{z:,}")
+
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+
+z = round(x / y, 2)
 
 print(z)
