@@ -33,7 +33,7 @@
 # name = input("What's your name? ")
 # hello(name)
 
-# Option 4
+# Option 4 main()
 def main():
     name = input("What's your name? ")
     hello(name)
