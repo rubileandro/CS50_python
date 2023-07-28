@@ -1,3 +1,4 @@
+# # Version 1
 # x = float(input("What's x? "))
 # y = float(input("What's y? "))
 
@@ -5,9 +6,18 @@
 
 # print(f"{z:,}")
 
+# # Version 2
+# x = float(input("What's x? "))
+# y = float(input("What's y? "))
+
+# z = round(x / y, 2)
+
+# print(z)
+
+# Version 3 f-string
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-z = round(x / y, 2)
+z = x / y
 
-print(z)
+print(f"{z:.2f}")
