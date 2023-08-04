@@ -1,9 +1,26 @@
 x = int(input("What's x?"))
 y = int(input("what's y?"))
 
+# # # Version 1
+# if x < y:
+#     print("x is less than y.")
+# if x > y:
+#     print("x is greater than y.")
+# if x == y:
+#     print("x is equal to y.")
+
+# # Version 2 mutually exclusive conditions
+# if x < y:
+#     print("x is less than y.")
+# elif x > y:
+#     print("x is greater than y.")
+# elif x == y:
+#     print("x is equal to y.")
+
+# Version 3
 if x < y:
     print("x is less than y.")
-if x > y:
+elif x > y:
     print("x is greater than y.")
-if x == y:
+else:
     print("x is equal to y.")
