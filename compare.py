@@ -17,10 +17,22 @@ y = int(input("what's y?"))
 # elif x == y:
 #     print("x is equal to y.")
 
-# Version 3
-if x < y:
-    print("x is less than y.")
-elif x > y:
-    print("x is greater than y.")
+# # Version 3
+# if x < y:
+#     print("x is less than y.")
+# elif x > y:
+#     print("x is greater than y.")
+# else:
+#     print("x is equal to y.")
+
+# # Version 4
+# if x < y or x > y:
+#     print("x is not equal to y")
+# else:
+#     print("x is equal to y")
+
+# Version 5
+if x != y:
+    print("x is not equal to y")
 else:
-    print("x is equal to y.")
+    print("x is equal to y")
