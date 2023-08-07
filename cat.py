@@ -1,3 +1,2 @@
-# up to but not including
-for _ in range(3):
-    print("meow")
+# Override print line ending
+print("meow\n" * 3, end="")
