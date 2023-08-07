@@ -1,6 +1,3 @@
-i = 0
-
-# up to but not including
-while i < 3:
+for i in [0, 1, 2]:
     print("meow")
-    i += 1
+    
