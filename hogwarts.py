@@ -1,5 +1,5 @@
 students = ["Herminoe", "Harry", "Ron"]
 
-for student in students:
-    print(students)
-    
+# passing the return value of len() as the argument to range()
+for i in range(len(students)):
+    print(students[i])
