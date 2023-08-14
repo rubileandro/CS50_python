@@ -32,4 +32,6 @@ def square(n):
     # return pow(n, 2)
     return n ** 2
 
-main()
+# Making sure main() isn't always called
+if __name__ == "__main__":
+    main()
