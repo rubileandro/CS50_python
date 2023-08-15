@@ -43,4 +43,5 @@ def hello(to="world!"):
     print("Hello,", to)
 
 
-main()
+if __name__ == "main__":
+    main()
