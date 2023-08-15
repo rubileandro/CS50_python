@@ -24,7 +24,7 @@
 
 # Version 4 with return
 def main():
-    x = int(input("What's x? "))
+    x = input("What's x? ")
     print("x squared is", square(x))
 
 def square(n):

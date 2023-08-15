@@ -1,4 +1,6 @@
+import pytest
 from calculator import square
+
 
 def test_positive():
     assert square(2) == 4
@@ -10,3 +12,7 @@ def test_nagative():
 
 def test_zero():
     assert square(0) == 0
+
+def test_str():
+    with pytest.raises(TypeError):
+        square("cat")
