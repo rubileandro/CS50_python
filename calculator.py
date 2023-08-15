@@ -28,11 +28,12 @@ def main():
     print("x squared is", square(x))
 
 def square(n):
-    # return n * n
+    return n * n
     # return pow(n, 2)
     # return n ** 2
-    # Testing
-    return n + n
+
+    # # Testing
+    # return n + n
 
 # Making sure main() isn't always called
 if __name__ == "__main__":
