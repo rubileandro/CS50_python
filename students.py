@@ -1,5 +1,12 @@
+students = []
+    
 with open("students.csv") as file:
     for line in file:
-        # create and assign in parallel
         name, house = line.rstrip().split(",")
-        print(f"{name} is in {house}")
+        student = {"name":name, "hosue":house}
+        students.append(student)
+
+
+for student in students:
+    print(f"{student['name']} is in {student['house']}")
+    
