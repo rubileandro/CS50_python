@@ -1,14 +1,9 @@
 import csv
 
-students = []
-    
-with open("students.csv") as file:
-    for line in file:
-        name, home = line.rstrip().split(",")
-        student = {"name":name, "home":home}
-        students.append(student)
+name = input("What's your name? ")
+home = input("Where's your home? ")
 
-# Lambda 
-for student in sorted(students, key=lambda student: student["name"]):
-    print(f"{student['name']} is in {student['home']}")
-    
+with open("students.csv", "a") as file:
+    writer = csv.writer(file)
+    writer.writerow([name,home])
+        
