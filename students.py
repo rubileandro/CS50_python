@@ -1,4 +1,5 @@
 with open("students.csv") as file:
     for line in file:
-        row = line.rstrip().split(",")
-        print(f"{row[0]} is in {row[1]}")
+        # create and assign in parallel
+        name, house = line.rstrip().split(",")
+        print(f"{name} is in {house}")
