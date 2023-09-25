@@ -1,12 +1,7 @@
-class Cat:
-    # Class variable
-    MEOWS = 3
-
-    # instance method
-    def meow(self):
-        for _ in range(Cat.MEOWS):
-            print("meow")
+def meow(n: int):
+    for _ in range(n):
+        print("meow")
 
 
-cat = Cat()
-cat.meow()
+number: int = int(input("Number: "))
+meow(number )
