@@ -1,7 +1,8 @@
-def meow(n: int):
+def meow(n: int) -> None:
     for _ in range(n):
         print("meow")
 
 
 number: int = int(input("Number: "))
-meow(number )
+meows: str = meow(number)
+print(meows)
